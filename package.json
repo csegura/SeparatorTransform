@@ -1,0 +1,30 @@
+{
+  "name": "separatortransform",
+  "version": "0.1.0",
+  "description": "Stream transform that divide the input by a sperator token",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "transform",
+    "stream",
+    "tokenizer",
+    "token",
+    "separator",
+    "read-by-line",
+    "line-by-line"
+  ],
+  "author": "Carlos Segura <romheat@gmail.com> (https://github.com/csegura)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csegura/readerline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/csegura/readerline/issues"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
