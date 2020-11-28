@@ -1,5 +1,5 @@
-const SeparatorTransform = require("./SeparatorTransform");
-const StreamSeparator = require("./StreamSeparator");
+const SeparatorTransform = require("./src/SeparatorTransform");
+const StreamSeparator = require("./src/StreamSeparator");
 
 module.exports = exports.default = {
   SeparatorTransform,
