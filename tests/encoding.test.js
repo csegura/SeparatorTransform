@@ -17,7 +17,6 @@ describe("Transform latin1 encoding", () => {
 
     writeStream.on("finish", () => {
       expect(writeStream.data).toEqual([latin1Text.toString("latin1")]);
-      console.log(writeStream.data);
     });
 
     readStream.pipe(transform).pipe(writeStream);
@@ -36,7 +35,6 @@ describe("Transform latin1 encoding", () => {
 
     writeStream.on("finish", () => {
       expect(writeStream.data).toEqual([utf8Text.toString()]);
-      console.log(writeStream.data);
     });
 
     readStream.pipe(transform).pipe(writeStream);
