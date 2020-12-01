@@ -1,5 +1,7 @@
 # SeparatorTransform
 
+[![github release version](https://img.shields.io/github/v/release/csegura/SeparatorTransform.svg?include_prereleases)](https://github.com/csegura/SeparatorTransform/releases/latest) [![npm version](https://badge.fury.io/js/SeparatorTransform.svg)](https://badge.fury.io/js/SeparatorTransform) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 StreamTransform is a stream reader that divide the entry in delimited parts, without buffering the files into memory.
 
 ## Install
@@ -12,7 +14,7 @@ npm install SeparatorTransform
 
 Synchronous processing of lines:
 
-The mudule include two class a low level SeparatorTransform that do the work and another that simplify the use `StreamSeparator`
+The module include two class a low level SeparatorTransform that do the work and another that simplify the use `StreamSeparator`
 
 example Divide reader entry line by line
 
